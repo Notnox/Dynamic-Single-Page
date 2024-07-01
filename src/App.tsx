@@ -1,8 +1,13 @@
+import './App.css';
+import PageOne from './pages/PageOne';
+
 
 function App() {
+
   return (
     <>
-      <h1>Hello World</h1>
+      <PageOne />
+      <PageOne />
     </>
   )
 }

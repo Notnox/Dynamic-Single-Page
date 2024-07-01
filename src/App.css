@@ -1,0 +1,80 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+.full-screen-component {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.full-screen-component-header {
+    height: 20vh;
+    width: 100%;
+}
+
+.full-screen-component-content {
+    flex: 1;
+}
+
+.responsive-title {
+    font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+    .responsive-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-title {
+        font-size: 2.4rem;
+    }
+}
+
+.responsive-subTitle {
+    font-size: 1.7rem;
+}
+
+@media (max-width: 768px) {
+    .responsive-subTitle {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-subTitle {
+        font-size: 1.0rem;
+    }
+}
+
+.responsive-text {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    .responsive-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-text {
+        font-size: 0.7rem;
+    }
+}
+
+.orange {
+    color: #FF7623;
+}
+
+.gray {
+    color: #ACACAC;
+}
